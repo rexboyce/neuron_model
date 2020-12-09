@@ -1,6 +1,9 @@
 # Neuron_Model
 Project for the BYU ACME program's Volume 4 class
 
+# Bifurcation Animation
+![](bifurcation_animation.gif)
+
 # Files
 1) hhdemo.ipynb:  Produces the original Hodgkin Huxley Model
     
@@ -33,5 +36,3 @@ Project for the BYU ACME program's Volume 4 class
 # Why
     Whereas the original Hodgkin Huxley Model was fitted to data, they didn't include boundry conditions that we thought were obvious.  In their model they ignored the boundry condition of the gates, where the total number of gates could change. We assumed this could not be accurate and looked furthur into the construction of the model and found the model was fitted to Data, but no explination for why the sum of the gates would change.
     
-# Bifurcation Animation
-![](bifurcation_animation.gif)
