@@ -33,6 +33,5 @@ Project for the BYU ACME program's Volume 4 class
     
     dndt = self.alpha_n(V)*(1.0-n) - self.beta_n(V)*n
         
-# Why
-    Whereas the original Hodgkin-Huxley equations was fitted to data and demonstrates the phenomenon of a neuron firing, it isn't mechanistic so it doesn't intuitively model what is actually happening when a neuron fires. The model variables don't correspond to any measurable quantities, such as the number of channels that are open or closed. In this model, we combine the original Hodkin-Huxley equations with a 3 population model similar to the SIR model to represent Na channels in the open, closed, and inactivated configurations. This reduces the overall number of functions in the model to be fitted to data, while producing similar behavior, including the expected bifurcations.
-    
+# Why?
+&nbsp;&nbsp;&nbsp;&nbsp;Whereas the original Hodgkin-Huxley equations was fitted to data and demonstrates the phenomenon of a neuron firing, it isn't mechanistic so it doesn't intuitively model what is actually happening when a neuron fires. The model variables don't correspond to any measurable quantities, such as the number of channels that are open or closed. In this model, we combine the original Hodkin-Huxley equations with a 3 population model similar to the SIR model to represent Na channels in the open, closed, and inactivated configurations. This reduces the overall number of functions in the model to be fitted to data, while producing similar behavior, including the expected bifurcations.
